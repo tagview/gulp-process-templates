@@ -1,0 +1,28 @@
+{
+  "name": "gulp-process-templates",
+  "version": "1.0.0",
+  "description": "Gulp task to process templates and include the escaped content into js files",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tagview/gulp-process-templates.git"
+  },
+  "keywords": [
+    "gulp",
+    "templates",
+    "javascript"
+  ],
+  "author": "Tagview",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tagview/gulp-process-templates/issues"
+  },
+  "scripts": {
+    "test": "mocha compiledtest/template-test.js"
+  },
+  "homepage": "https://github.com/tagview/gulp-process-templates#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "map-stream": "0.0.6"
+  }
+}
