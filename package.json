@@ -18,11 +18,14 @@
     "url": "https://github.com/tagview/gulp-process-templates/issues"
   },
   "scripts": {
-    "test": "mocha compiledtest/template-test.js"
+    "test": "node_modules/.bin/gulp compile && node_modules/.bin/mocha compiledtest/template-test.js"
   },
   "homepage": "https://github.com/tagview/gulp-process-templates#readme",
   "dependencies": {
     "gulp": "^3.9.0",
     "map-stream": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
   }
 }
