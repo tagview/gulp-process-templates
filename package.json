@@ -18,7 +18,7 @@
     "url": "https://github.com/tagview/gulp-process-templates/issues"
   },
   "scripts": {
-    "test": "node_modules/.bin/gulp compile && node_modules/.bin/mocha compiledtest/template-test.js"
+    "test": "node_modules/.bin/gulp compile && node_modules/.bin/mocha compiledtest/template-test.js && node_modules/.bin/gulp clean"
   },
   "homepage": "https://github.com/tagview/gulp-process-templates#readme",
   "dependencies": {
@@ -26,6 +26,7 @@
     "map-stream": "0.0.6"
   },
   "devDependencies": {
+    "gulp-clean": "^0.3.1",
     "mocha": "^2.3.3"
   }
 }
